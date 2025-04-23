@@ -59,32 +59,8 @@ The system stores embeddings for Ecoinvent entries in ChromaDB and leverages an 
 
 ---
 
-##  Sample Output
 
-```json
-{
-  "reference_product": "Electricity, low voltage, at grid",
-  "score": 0.842,
-  "justification": "This reference product closely represents the energy use aspect of the item described.",
-  "impact_factors": [
-    {
-      "impact_factor_name": "Global warming potential (GWP100)",
-      "impact_factor_score": 0.91,
-      "impact_factor_justification": "High alignment with environmental emissions typical for electricity consumption in similar products."
-    },
-    {
-      "impact_factor_name": "Ozone depletion potential",
-      "impact_factor_score": 0.87,
-      "impact_factor_justification": "Relevant due to the electronic nature of the product involving potential refrigerant usage."
-    }
-  ]
-}
-
-```
-
----
-
-# 📖 Citation
+#  Citation
 
 This application draws inspiration and design principles from the following work:
 
